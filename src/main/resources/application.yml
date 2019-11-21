@@ -1,0 +1,9 @@
+server:
+  port: 9088
+  servlet:
+    context-path: /boot-security
+spring:
+  application:
+    name: boot-security
+  profiles:
+    active: dev
